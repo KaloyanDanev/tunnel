@@ -10,7 +10,7 @@ export const Interview = () => (
                     </header>
                     <br/>
                     <div className="w3-col m7 w3-center w3-padding-large">
-                        <img src={require("../images/interviewPicture2.png")} className="w3-round w3-image" alt="Interview"/>
+                        <img src={require("../images/interviewPicture2.webp")} className="w3-round w3-image" alt="Interview"/>
                     </div>
                     <p className="w3-large">Маргарита Плинер е родена в Тополовград. Завършва Аграрен университет в
                         Пловдив и редовна аспирантура в Институт по генетично инженерство. Доктор на науките е с над 100
@@ -41,7 +41,7 @@ export const Interview = () => (
                             на разумност и чувственост на самата материя. С тази книга искам да провокирам именно тези
                             теми и на накарам читателя поне малко да се замисли и намери отговора за себе си .</p>
                         <div className="w3-col w3-padding-large">
-                            <img src={require("../images/interviewPicture1.png")} style={{width:'100%'}} className="w3-round w3-image" alt="Interview"/>
+                            <img src={require("../images/interviewPicture1.webp")} style={{width:'100%'}} className="w3-round w3-image" alt="Interview"/>
                         </div>
                         <p className="w3-large"><b>- Това е първата ви книга. Само търсенето на смисъла на живота ли ви
                             накара да я напишете?</b></p>

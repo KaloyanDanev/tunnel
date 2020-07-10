@@ -14,7 +14,7 @@ function Home() {
         <div className="home" id="book">
             <Link to="book">
                 <div className="w3-col m4 w3-padding-large zoom">
-                    <img src={require('../images/bookPicture.jpg')} className="w3-round w3-image" alt="Book"/>
+                    <img src={require('../images/bookPicture.webp')} className="w3-round w3-image" alt="Book"/>
                 </div>
                 <div className="w3-col m8 w3-padding-large">
                     <h1 className="w3-center w3-padding-large">{t('Nav.2')}</h1>
@@ -34,7 +34,7 @@ function Home() {
                         <p className="w3-large">{t('Translate.4')}</p>
                 </div>
                 <div className="w3-col m6 w3-padding-large zoom">
-                    <img src={require('../images/authorPicture.jpg')} className="w3-round w3-image" alt="Author"/>
+                    <img src={require('../images/authorPicture.webp')} className="w3-round w3-image" alt="Author"/>
                 </div>
             </div>
         </div>

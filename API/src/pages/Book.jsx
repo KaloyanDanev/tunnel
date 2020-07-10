@@ -1,12 +1,12 @@
 import React  from "react";
-import bookPicture from "../images/bookPicture.jpg";
+import bookPicture from "../images/bookPicture.webp";
 import StripeCheckout from "react-stripe-checkout";
 import {toast, ToastContainer} from "react-toastify";
 import axios from "axios";
 import { useTranslation } from "react-i18next";
-import excerpt1Picture from "../images/nav.png";
-import excerpt2Picture from "../images/gallery/gallery2.jpg";
-import excerpt3Picture from "../images/gallery/gallery1.jpg";
+import excerpt1Picture from "../images/nav.webp";
+import excerpt2Picture from "../images/gallery/gallery2.webp";
+import excerpt3Picture from "../images/gallery/gallery1.webp";
 
 function Book()  {
     const [product] = React.useState({

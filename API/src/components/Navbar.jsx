@@ -11,7 +11,7 @@ import {Link} from "react-router-dom";
 
      return (
                 <nav className="w3-top">
-                    <img className="navimg" src={require('../images/nav.png')} alt="nav"/>
+                    <img className="navimg" src={require('../images/nav.webp')} alt="nav"/>
                     <div className="w3-bar w3-white w3-padding w3-card nav">
                         <a href="/" className="w3-bar-item w3-button">{t('Nav.1')}</a>
                         <div className="w3-center">
@@ -23,8 +23,8 @@ import {Link} from "react-router-dom";
                         </div>
                         <div className="w3-right">
                         <Link to="book" className="w3-bar-item w3-button">{t('Nav.7')}</Link>
-                            <img onClick={()=>handleClick('bg-BG')} className="w3-bar-item flag w3-button" src={require('../images/bg.png')} alt="bg"/>
-                            <img onClick={()=>handleClick('ru')} className="w3-bar-item flag w3-button" src={require('../images/ru.png')} alt="ru"/>
+                            <img onClick={()=>handleClick('bg-BG')} className="w3-bar-item flag w3-button" src={require('../images/bg.webp')} alt="bg"/>
+                            <img onClick={()=>handleClick('ru')} className="w3-bar-item flag w3-button" src={require('../images/ru.webp')} alt="ru"/>
                         </div>
                     </div>
                 </nav>
